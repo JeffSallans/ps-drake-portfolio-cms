@@ -1,6 +1,6 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: 'previous-productions-page'
+path: /previous-productions
 title: Our Coffee
 image: /img/books-jumbotron.jpg
 heading: Great coffee with a conscience
