@@ -2,7 +2,7 @@
 templateKey: 'product-page'
 path: /products
 title: Our Coffee
-image: /img/jumbotron.jpg
+image: /img/books-jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their

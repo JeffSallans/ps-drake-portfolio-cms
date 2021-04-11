@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'PS Drake Playwright',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'An active member of many theater groups in southeast Michigan, and enjoys both acting and playwriting. She has had her work performed by various theater companies, most notably PTD Productions, Eastern Michigan University, and the Ridgedale Players.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

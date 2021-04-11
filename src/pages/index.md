@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: P.S. Drake
-image: /img/home-jumbotron.jpg
+image: /img/books-jumbotron.jpg
 heading: Playwright & Actor
 subheading: Farces, Romance, and More
 mainpitch:
@@ -11,18 +11,11 @@ description: An active member of many theater groups in southeast Michigan, and
   enjoys both acting and playwriting. She has had her work performed by various
   theater companies, most notably PTD Productions, Eastern Michigan University,
   and the Ridgedale Players.
+profilePicture:
+  image: /img/profile-picture.jpg
+  alt: PS Drake Profile
 intro:
   blurbs:
-    - image: /img/adviceforlosers.jpg
-      text: Advice For Losers
-    - image: /img/loretta.jpg
-      text: Loretta's Crematorium Book Club
-    - image: /img/summerandthesirens.jpg
-      text: Summer and The Sirens
-    - image: /img/emuoneact.jpg
-      text: |-
-        Geek in the Sheets
-        False Goddess
   heading: P.S. Drake
   description: An active member of many theater groups in southeast Michigan, and
     enjoys both acting and playwriting. She has had her work performed by
