@@ -95,7 +95,7 @@ export const IndexPageTemplate = ({
                       </section>
                     </div>
                   </div>
-                  <div className="column is-12">
+                  <div className="column is-6">
                     <h3 className="has-text-weight-semibold is-size-2">
                       What I'm Working On
                     </h3>
