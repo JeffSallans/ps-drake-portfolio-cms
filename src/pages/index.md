@@ -3,7 +3,7 @@ templateKey: index-page
 title: P.S. Drake
 image: /img/books-jumbotron.jpg
 heading: Playwright & Actor
-subheading: Farces, Romance, and More
+subheading: Playwright
 mainpitch:
   title: " "
   description: " "
