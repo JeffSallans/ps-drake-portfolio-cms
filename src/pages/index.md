@@ -7,27 +7,27 @@ subheading: Playwright
 mainpitch:
   title: " "
   description: " "
-description: An active member of many theater groups in southeast Michigan, and
-  enjoys both acting and playwriting. She has had her work performed by various
-  theater companies, most notably PTD Productions, Eastern Michigan University,
-  and the Ridgedale Players.
-profilePicture:
-  image: /img/profile-picture.jpg
-  alt: PS Drake Profile
 intro:
-  blurbs:
+  blurbs: null
   heading: P.S. Drake
   description: An active member of many theater groups in southeast Michigan, and
     enjoys both acting and playwriting. She has had her work performed by
     various theater companies, most notably PTD Productions, Eastern Michigan
     University, and the Ridgedale Players.
+profilePicture:
+  image: /img/profile-picture.jpg
+  alt: PS Drake Profile
+description: An active member of many theater groups in southeast Michigan, and
+  enjoys both acting and playwriting. She has had her work performed by various
+  theater companies, most notably PTD Productions, Eastern Michigan University,
+  and the Ridgedale Players.
 main:
   heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  description: |+
+    
+
+    npm i --s netlify-plugin-add-instagram
+
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
