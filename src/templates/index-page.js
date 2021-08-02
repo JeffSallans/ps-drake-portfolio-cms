@@ -160,6 +160,8 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   profilePicture: PropTypes.shape({
     alt: PropTypes.string,
+    title: PropTypes.string,
+    link: PropTypes.string,
     childImageSharp: PropTypes.object,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
     style: PropTypes.object,
