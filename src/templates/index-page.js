@@ -68,27 +68,12 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="columns">
-                  <div className="column is-6">
-                    <div className="columns">
-                      <div className="column is-12">
-                        <h3 className="has-text-weight-semibold is-size-2">
-                          {heading}
-                        </h3>
-                        <p>{description}</p>
-                      </div>
-                    </div>
-                    <div className="column is-12">
-                      <section className="section">
-                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                        <div class="elfsight-app-636a4431-896c-474b-b44b-99415a01f252"></div>
-                      </section>
-                    </div>
-                    <div className="column is-6">
-                      <section className="section">
+                  <div className="column is-3">
+                    <section className="section">
                         <div className="has-text-centered">
                           <div
                             style={{
-                              width: '400px',
+                              width: '200px',
                               display: 'inline-block',
                             }}
                           >
@@ -96,18 +81,40 @@ export const IndexPageTemplate = ({
                           </div>
                         </div>
                       </section>
-                    </div>
                   </div>
-                  <div className="column is-6">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      What I'm Working On
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
+                  <div className="column is-3">
+                  <section className="section">
+                        <div className="has-text-centered">
+                          <div
+                            style={{
+                              width: '200px',
+                              display: 'inline-block',
+                            }}
+                          >
+                            <PreviewCompatibleImage imageInfo={profilePicture} />
+                          </div>
+                        </div>
+                      </section>
+                  </div>
+                  <div className="column is-3">
+                  <section className="section">
+                        <div className="has-text-centered">
+                          <div
+                            style={{
+                              width: '200px',
+                              display: 'inline-block',
+                            }}
+                          >
+                            <PreviewCompatibleImage imageInfo={profilePicture} />
+                          </div>
+                        </div>
+                      </section>
+                  </div>
+                  <div className="column is-3">
+                    <section className="section">
+                      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                      <div class="elfsight-app-636a4431-896c-474b-b44b-99415a01f252"></div>
+                    </section>
                   </div>
                 </div>
               </div>
