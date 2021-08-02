@@ -18,25 +18,25 @@ profilePicture:
   image: /img/profile-picture.jpg
   alt: PS Drake Profile
 box1:
-  image: /img/profile-picture.jpg
-  alt: PS Drake Profile
+  image: /img/box1-dark.jpg
+  alt: About Me
   link: /
-  title: PS Drake Profile
+  title: About Me
 box2:
-  image: /img/profile-picture.jpg
-  alt: PS Drake Profile
+  image: /img/box2-auditorium.jpg
+  alt: Resume
   link: /
-  title: PS Drake Profile
+  title: Resume
 box3:
-  image: /img/profile-picture.jpg
-  alt: PS Drake Profile
+  image: /img/box3-columbus.jpg
+  alt: Plays
   link: /
-  title: PS Drake Profile
+  title: Plays
 box4:
-  image: /img/profile-picture.jpg
-  alt: PS Drake Profile
+  image: /img/box4-staging.jpg
+  alt: News & Inquiries
   link: /
-  title: PS Drake Profile
+  title: News & Inquiries
 description: An active member of many theater groups in southeast Michigan, and
   enjoys both acting and playwriting. She has had her work performed by various
   theater companies, most notably PTD Productions, Eastern Michigan University,
