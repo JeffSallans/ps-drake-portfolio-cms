@@ -2,29 +2,9 @@
 templateKey: index-page
 heading: Playwright & Actor
 subheading: Playwright
-box1:
-  image: /img/box1-dark.jpg
-  alt: About Me
-  link: /
-  title: About Me
 mainpitch:
   title: " "
   description: " "
-box2:
-  image: /img/box2-auditorium.jpg
-  alt: Resume
-  link: /
-  title: Resume
-box3:
-  image: /img/box3-columbus.jpg
-  alt: Plays
-  link: /
-  title: Plays
-box4:
-  image: /img/box4-staging.jpg
-  alt: News & Inquiries
-  link: /
-  title: News & Inquiries
 title: P.S. Drake
 image: /img/books-jumbotron.jpg
 description: An active member of many theater groups in southeast Michigan, and
@@ -53,4 +33,24 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+box1:
+  image: /img/box1-dark.jpg
+  alt: About Me
+  link: /
+  title: About Me
+box2:
+  image: /img/box2-auditorium.jpg
+  alt: Resume
+  link: /
+  title: Resume
+box3:
+  image: /img/box3-columbus.jpg
+  alt: Plays
+  link: /
+  title: Plays
+box4:
+  image: /img/box4-staging.jpg
+  alt: News & Inquiries
+  link: /
+  title: News & Inquiries
 ---

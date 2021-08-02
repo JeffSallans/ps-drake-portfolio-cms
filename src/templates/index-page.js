@@ -120,7 +120,7 @@ export const IndexPageTemplate = ({
                       </div>
                       </a>
                     </section>
-                    <section className="section">
+                    <section>
                       <a href={box4.link}>
                       <div className="has-text-centered">
                         <div
