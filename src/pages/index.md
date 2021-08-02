@@ -17,6 +17,18 @@ intro:
 profilePicture:
   image: /img/profile-picture.jpg
   alt: PS Drake Profile
+box1:
+  image: /img/profile-picture.jpg
+  alt: PS Drake Profile
+box2:
+  image: /img/profile-picture.jpg
+  alt: PS Drake Profile
+box3:
+  image: /img/profile-picture.jpg
+  alt: PS Drake Profile
+box4:
+  image: /img/profile-picture.jpg
+  alt: PS Drake Profile
 description: An active member of many theater groups in southeast Michigan, and
   enjoys both acting and playwriting. She has had her work performed by various
   theater companies, most notably PTD Productions, Eastern Michigan University,
@@ -24,7 +36,7 @@ description: An active member of many theater groups in southeast Michigan, and
 main:
   heading: Great coffee with no compromises
   description: |+
-    
+
 
     npm i --s netlify-plugin-add-instagram
 
