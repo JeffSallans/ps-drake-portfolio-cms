@@ -42,10 +42,10 @@ collections:
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: "Box 1", name: box1, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: Image1, name: image1, widget: object}, {label: Alt, name: alt, widget: string}]}
-          - {label: "Box 2", name: box2, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: Image1, name: image1, widget: object}, {label: Alt, name: alt, widget: string}]}
-          - {label: "Box 3", name: box3, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: Image1, name: image1, widget: object}, {label: Alt, name: alt, widget: string}]}
-          - {label: "Box 4", name: box4, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: Image1, name: image1, widget: object}, {label: Alt, name: alt, widget: string}]}
+          - {label: "Box 1", name: box1, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
+          - {label: "Box 2", name: box2, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
+          - {label: "Box 3", name: box3, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
+          - {label: "Box 4", name: box4, widget: object, fields: [{label: title, name: title, widget: string}, {label: link, name: link, widget: string}, {label: image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
