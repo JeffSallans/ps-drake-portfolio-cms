@@ -15,6 +15,8 @@ export const IndexPageTemplate = ({
   description,
 }) => (
   <div>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-636a4431-896c-474b-b44b-99415a01f252"></div>
     <div
       className="full-width-image margin-top-0"
       style={{
