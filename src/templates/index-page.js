@@ -12,6 +12,10 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   profilePicture,
+  box1,
+  box2,
+  box3,
+  box4,
   description,
 }) => (
   <div>
@@ -68,49 +72,71 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="columns">
-                  <div className="column is-3">
+                  <div className="column is-4">
                     <section className="section">
-                        <div className="has-text-centered">
-                          <div
-                            style={{
-                              width: '200px',
-                              display: 'inline-block',
-                            }}
-                          >
-                            <PreviewCompatibleImage imageInfo={profilePicture} />
-                          </div>
+                      <a href={box1.link}>
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '250px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={box1} />
                         </div>
-                      </section>
-                  </div>
-                  <div className="column is-3">
-                  <section className="section">
-                        <div className="has-text-centered">
-                          <div
-                            style={{
-                              width: '200px',
-                              display: 'inline-block',
-                            }}
-                          >
-                            <PreviewCompatibleImage imageInfo={profilePicture} />
-                          </div>
+                        <p>{box1.title}</p>
+                      </div>
+                      </a>
+                    </section>
+                    <section>
+                      <a href={box2.link}>
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '250px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={box2} />
                         </div>
-                      </section>
+                        <p>{box2.title}</p>
+                      </div>
+                      </a>
+                    </section>
                   </div>
-                  <div className="column is-3">
-                  <section className="section">
-                        <div className="has-text-centered">
-                          <div
-                            style={{
-                              width: '200px',
-                              display: 'inline-block',
-                            }}
-                          >
-                            <PreviewCompatibleImage imageInfo={profilePicture} />
-                          </div>
+                  <div className="column is-4">
+                    <section className="section">
+                      <a href={box3.link}>
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '250px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={box3} />
                         </div>
-                      </section>
+                        <p>{box3.title}</p>
+                      </div>
+                      </a>
+                    </section>
+                    <section className="section">
+                      <a href={box4.link}>
+                      <div className="has-text-centered">
+                        <div
+                          style={{
+                            width: '250px',
+                            display: 'inline-block',
+                          }}
+                        >
+                          <PreviewCompatibleImage imageInfo={box4} />
+                        </div>
+                        <p>{box4.title}</p>
+                      </div>
+                      </a>
+                    </section>
                   </div>
-                  <div className="column is-3">
+                  <div className="column is-4">
                     <section className="section">
                       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                       <div class="elfsight-app-636a4431-896c-474b-b44b-99415a01f252"></div>
@@ -151,6 +177,10 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         profilePicture={frontmatter.profilePicture}
+        box1={frontmatter.box1}
+        box2={frontmatter.box2}
+        box3={frontmatter.box3}
+        box4={frontmatter.box4}
         description={frontmatter.description}
       />
     </Layout>
@@ -184,6 +214,54 @@ export const pageQuery = graphql`
         description
         profilePicture {
           alt
+          image {
+            childImageSharp {
+              fluid(maxWidth: 300, quality: 72) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        box1 {
+          title
+          alt
+          link
+          image {
+            childImageSharp {
+              fluid(maxWidth: 300, quality: 72) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        box2 {
+          title
+          alt
+          link
+          image {
+            childImageSharp {
+              fluid(maxWidth: 300, quality: 72) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        box3 {
+          title
+          alt
+          link
+          image {
+            childImageSharp {
+              fluid(maxWidth: 300, quality: 72) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        box4 {
+          title
+          alt
+          link
           image {
             childImageSharp {
               fluid(maxWidth: 300, quality: 72) {
